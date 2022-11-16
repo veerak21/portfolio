@@ -9,5 +9,5 @@ Using this project will give new developers an idea of the fundamnetal principle
 ## Credits:
 Thanks to Mahyar Mottaghi Zadeh for providing relevent training and rescources for this project.
 
-## Website image:
-![screenshot-of-applicaton](./assets/images/horiseon-screenshot.png)
+## Website URL and imange:
+![screenshot-of-applicaton]()
