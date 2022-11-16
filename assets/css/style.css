@@ -10,7 +10,7 @@
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
   }
-  
+  /*Main body styling*/
   body {
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@
   p {
     margin: 0;
   }
-  
+  /* Header with styling begins */
   header {
     padding: 15px 6% 15px 0;
     display: flex;
@@ -56,7 +56,8 @@
     font-size: 4vw;
     line-height: 1;
   }
-  
+  /* Header with styling ends */
+  /* Navigation bar styling begins */
   nav {
     display: flex;
     flex-direction: row;
@@ -84,12 +85,12 @@
   nav a:last-child {
     margin-right: 0;
   }
-  
+  /* Navigation bar styling ends*/
   main {
     margin-top: 20px;
     margin-bottom: 45px;
   }
-  
+  /* Hero banner styling begins */
   .hero-banner {
     background: rgb(68, 88, 120);
     background-image: url("../images/img2.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
@@ -125,7 +126,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+  /* Hero image styling ends */
+  /* Page section styling begins*/
   .page-section {
     margin: 25px 0;
     padding: 10px 0;
@@ -154,7 +156,8 @@
   .page-section p {
     margin-bottom: 20px;
   }
-  
+   /* Page section styling ends*/
+   /* container styling */
   .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -178,12 +181,12 @@
     font-size: 0.9rem;
   }
   
-  /* feature first portfolio item */
+  
   .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
   }
-  
+  /*hovering background color when mouse on it*/
   .flex-item:hover {
     background-color: rgba(196, 219, 223, 0.836);
   }
@@ -196,7 +199,7 @@
   .flex-item h3 {
     font-size: 1.6rem;
   }
-  
+  /*contact address styling*/
   .contact address {
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +207,7 @@
     align-items: center;
     height: 100%;
   }
-  
+  /*image logo styling*/
   .contact address a img {
     color: var(--tertiary);
     height: 50px;
@@ -215,7 +218,7 @@
     display: inline-block;
     
   }
-  
+  /*hovering the image logo*/
   .contact address a img:hover {
     background-size: 100% 80%;
     background-color: var(--primary);
@@ -224,10 +227,7 @@
 
   
   /* portfolio project images */
-  /*.run-buddy {
-    background-image: url("../images/02-run-buddy.jpg");
-  }*/
-  
+ 
   .editor {
     background-image: url("../images/cactus.png");
     background-position:center;
@@ -247,7 +247,7 @@
   }
   
   /* end portfolio project images */
-  
+  /*media queries applies styles for size 980px devices.*/
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
@@ -280,7 +280,7 @@
       font-size: 7vw;
     }
   }
-  
+   /*media queries applies styles for size 768px devices.*/
   @media screen and (max-width: 768px) {
     .flex-item,
     .flex-item:first-child {
