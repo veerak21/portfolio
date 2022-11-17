@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Veera K Pagadala // Web Developer</title>
+  <title>Veera K Pagadala - Web Developer</title>
   <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 
@@ -15,7 +15,7 @@
     <h1>Veera K. Pagadala</h1>
     <nav>
       <a href="#about">About Me</a>
-      <a href="#Works">Work</a>
+      <a href="#Works">Works</a>
       <a href="#contact">Contact Me</a>
       <!--  This link to my resume! -->
       <a href="./assets/images/Veera's CV.docx" target="_blank">Resume</a>
@@ -33,8 +33,11 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
-      <div>
-        <p>Looking to get your website designed? You are at the right place. </p>
+      <div id="about-content">
+        <div>
+          <img src="./assets/images/img1.jpg" id="pic">
+        </div>
+        <div><p>Looking to get your website designed? You are at the right place. </p>
         <p>
           I am a certified full stack web developer from the University of Birmingham, Birmingham, UK. I build and design visually appealing and comprehensive full portfolio websites. I use the grid and flexbox basics, and advanced interactions in my designs. I employ Visual Studio and GitHub to carefully inspect the steps of building, deployment and launching the sites.
         </p>
@@ -43,6 +46,8 @@
         </p>
         <p>Please visit my previous work to gauge the extent of my abilities. </p>
       </div>
+    </div>
+
     </section> 
 
     <!-- portfolio container -->
@@ -50,23 +55,31 @@
       <!-- My Work -->
       <h2>Works</h2>
       <div class="flex-container">
-         <a href="#" class="flex-item editor">
+         <a href="https://veerak21.github.io/code-refactoring/" target=_blank class="flex-item horiseon">
           <div>
-            <h3>Freelance Editor</h3>
-            <span>Cactus Communications Inc.</span>
+            <h3>Horiseon</h3>
+            <span>HTML & CSS</span>
           </div>
         </a>
-        <a href="#" class="flex-item office admin">
+        <a href="https://veerak21.github.io/prework-study-guide/" target=_blank class="flex-item prework">
           <div>
-            <h3>Office Administrator</h3>
-            <span>CPC Technologies</span>
+            <h3>Prework Study Guide</h3>
+            <span>HTML,CSS & JavaScript</span>
           </div>
         </a>
-        <a href="#" class="flex-item admin">
+        <a href="https://veerak21.github.io/week-1/" target=_blank class="flex-item stubio">
           <div>
-            <h3>Database Administrator</h3>
-            <span>DAV Public Schools</span>
+            <h3>Student Bio</h3>
+            <span>HTML & CSS</span>
           </div>
+        </a>
+        <!-- The password generator is coming soon. So, it is hidden upon hovering -->
+        <a href="#" class="flex-item pwd">
+          <div>
+            <h3>Password Generator</h3>
+            <span>HTML,CSS & JavaScript</span>
+          </div>
+          <h4>Coming soon...</h4>
         </a>
          </div>
     </section>

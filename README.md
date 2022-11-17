@@ -7,7 +7,10 @@ This project was to present the professional portfolio of a potential employee. 
 Using this project will give new developers an idea of the fundamnetal principles in using semantic HTML elements and CSS for designing a website, there-by increasing visual appeal and improving structure to any given website.
 
 ## Credits:
-Thanks to Mahyar Mottaghi Zadeh for providing relevent training and rescources for this project.
+Thanks to Instructor Mahyar Mottaghi Zadeh for providing relevent training and rescources for this project.
 
 ## Website URL and imange:
-![screenshot-of-applicaton]()
+
+
+![screenshot-of-applicaton](./assets/images/980px.png)
+![screenshot-of-applicaton](./assets/images/768px.png)
