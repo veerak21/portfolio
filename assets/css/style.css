@@ -241,7 +241,7 @@
   /* portfolio project images */
  
   .horiseon {
-    background-image: url("../images/image.jpg");
+    background-image: url("../images/img3.jpg");
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover;
@@ -264,11 +264,20 @@
   }
   .pwd {
 
-    background-image: url("../images/img7.png");
+    background-image: url("../images/img6.png");
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover;
     }  
+
+    .weather-dashboard {
+
+      background-image: url("../images/img7.png");
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size:cover;
+  
+      }
 
     .world-vacation {
 
@@ -278,6 +287,7 @@
     background-size:cover;
 
     }
+    
    /* end of portfolio project images */
 
   /*media queries with styles for 980px display devices.*/

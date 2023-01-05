@@ -9,13 +9,22 @@ Using this project will give new developers an idea of the fundamnetal principle
 ## Credits:
 Thanks to Instructor Mahyar Mottaghi Zadeh for providing relevent training and rescources for this project.
 
-## Website URL and imange:
+## Website URL and imanges:
 
 https://veerak21.github.io/portfolio/
+
+
+![screenshot-of-applicaton](./assets/images/screenshot.png)
+
+
+
+
+
 
 980px screenshot
 
 ![screenshot-of-applicaton](./assets/images/980px.png)
+
 
 
 768px screenshot
