@@ -262,12 +262,22 @@
     background-repeat: no-repeat;
     background-size:cover;
   }
-  .pwd h4 {
-    background-color: rgb(5, 48, 49);
-    padding: 0 0 0 45px;
-    align-items:flex-end;
-    margin: 5px;
+  .pwd {
+
+    background-image: url("../images/img7.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
     }  
+
+    .world-vacation {
+
+    background-image: url("../images/img8.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    }
    /* end of portfolio project images */
 
   /*media queries with styles for 980px display devices.*/
